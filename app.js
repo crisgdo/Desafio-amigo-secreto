@@ -4,13 +4,13 @@ function adicionarAmigo() {
     let input = document.getElementById('amigo');
     let nome = input.value.trim();
 
-    // Verifica se o campo está vazio
+    // Verifica se o campo está vazio.
     if (nome === '') {
         alert('Por favor, insira um nome.');
         return;
     }
 
-    // Adiciona o nome à lista de amigos
+    // Adiciona o nome à lista de amigos.
     amigos.push(nome);
     input.value = "";
     atualizarLista();
@@ -37,7 +37,7 @@ function sortearAmigo() {
     let indiceSorteado = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[indiceSorteado];
     
-    // Exibe o resultado
+    // Exibe o resultado.
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = '';
     

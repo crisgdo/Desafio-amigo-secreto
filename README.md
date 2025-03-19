@@ -13,3 +13,11 @@ O projeto utiliza **HTML**, **CSS** e **JavaScript puro**, sem dependências ext
 - **Adicionar Amigos**: Insira nomes de amigos no campo de entrada e clique no botão "Adicionar". Os nomes serão exibidos em uma lista.
 - **Sortear Amigo**: Clique no botão "Sortear" para selecionar aleatoriamente um nome da lista.
 - **Validação de Entrada**: O sistema verifica se o campo de entrada está vazio antes de adicionar um nome à lista.
+
+## Captura de Tela
+
+Aqui está uma captura de tela do projeto em funcionamento:
+
+![Aplicação em uso][def]
+
+[def]: https://i.imgur.com/IXhlwcG.png
